@@ -42,8 +42,3 @@ overwriteBestCustomer();
 console.log('Overwritten best customer:', bestCustomer);
 
 console.log('Least favorite customer:', leastFavoriteCustomer);
-try {
-    changeLeastFavoriteCustomer();  // This will throw an error and log a message
-} catch (e) {
-    console.error(e.message);
-}
